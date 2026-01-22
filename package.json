@@ -1,0 +1,35 @@
+{
+  "name": "NodeJsTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "balanced-match": "^1.0.2",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "binary-extensions": "^2.3.0",
+    "brace-expansion": "^1.1.12",
+    "bson": "^7.1.1",
+    "bytes": "^3.1.2",
+    "concat-map": "^0.0.1",
+    "content-type": "^1.0.5",
+    "cors": "^2.8.5",
+    "depd": "^2.0.0",
+    "dotenv": "^17.2.3",
+    "ee-first": "^1.1.1",
+    "encodeurl": "^2.0.0",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
